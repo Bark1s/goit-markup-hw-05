@@ -402,11 +402,11 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="subscription-form-div">
+                <p class="subscribe-title">Subscribe</p>
                 <form class="subscription-form">
-                    <label>
-                        Subscribe
-                        <input type="email" name="email" placeholder="E-mail" />
+                    <label class="subscribe-label">
+                        <input class="subscribe-input" type="email" name="email" placeholder="E-mail" />
                     </label>
                     <button class="subscribe-button" type="submit">Subscribe
                         <span class="container-subscribe-icon">
@@ -420,10 +420,10 @@
         </div>
     </footer>
     <!-- CALLBACK-FORM -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
         <div class="modal">
             <button class="callback-close-btn" type="button">
-                <svg class="callback-close-btn-icon" width="8px" height="8px" aria-label="close modal icon">
+                <svg class="callback-close-btn-icon" width="8" height="8" aria-label="close modal icon">
                     <use href="./images/icons.svg#icon-cross"></use>
                 </svg>
             </button>
@@ -435,7 +435,7 @@
                     <div class="callback-input-wrapper">
                         <input class="container-callback-input" type="text" name="user-name" id="user-name"
                             title="Borys" pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+" required>
-                        <svg class="callback-form-icon" width="18" height="18" aria-label="icon person">
+                        <svg class="callback-form-icon" width="18" height="24" aria-label="icon person">
                             <use href="./images/icons.svg#icon-person"></use>
                         </svg>
                     </div>
@@ -462,16 +462,16 @@
                     </div>
                 </div>
 
-                <div class="container-callback">
+                <div class="container-callback comment-add">
                     <label class="container-callback-label" for="user-comment">Comment</label>
                     <textarea class="container-callback-comment" name="user-comment" id="user-comment"
                         placeholder="Text input"></textarea>
                 </div>
 
                 <div class="callback-checkbox-wrapper">
-                    <input class="container-callback-checkbox visually-hidden" type="checkbox" name="user-agreement"
-                        id="user-agreement" value="true" required>
-                    <label class="container-callback-checkbox-label" for="user-agreement">
+                    <input class="container-callback-checkbox visually-hidden" type="checkbox" name="user-privacy"
+                        id="user-privacy" value="true" required>
+                    <label class="container-callback-checkbox-label" for="user-privacy">
                         <span class="callback-form-own-checkbox">
                             <svg class="callback-form-own-checkbox-icon" width="10" height="8" aria-label="checkmark">
                                 <use href="./images/icons.svg#icon-checkbox-active"></use>

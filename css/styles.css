@@ -559,11 +559,8 @@ button {
   background-color: #404bbf;
 }
 
-.container-subscribe-icon {
+.subscribe-icon {
   margin-left: 16px;
-  display: flex;
-  align-self: center;
-  justify-self: center;
 }
 
 /* -----------------------------------MODAL----------------------------------- */
@@ -739,7 +736,7 @@ button {
 .container-callback-checkbox:checked
   + .container-callback-checkbox-label
   > .callback-form-own-checkbox {
-  background-color: #4d5ae5;
+  background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
